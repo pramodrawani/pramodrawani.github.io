@@ -1,0 +1,99 @@
+/* ==================custom css ========================================*/
+        *{margin: 0;padding:0;box-sizing: border-box;}
+        html{font-size:1rem;}
+        ul,li{list-style: none;}
+        a{text-decoration: none;color:whitesmoke;}
+        h1,h2,h3,h4{color:rgb(40, 6, 6);}
+
+        :root{
+            --bg-color:rgb(87, 106, 230);
+            --text-color:rgba(20, 18, 18, 0.68);
+        }
+        
+/* ================== end of custom css  ============================== */
+
+
+
+
+/* ==================container layout ================================*/
+    .container{
+        width:96%;
+        margin:auto;
+    
+        
+        
+    }
+/* ================== end of container layout ========================*/
+
+
+/* ================== Header container section ======================*/
+    .navigation-container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: var(--bg-color);
+       padding:.6rem 1rem;
+       box-shadow: 0px 0px 6px lightgrey;
+
+
+    }
+    #logo{
+       
+        border-radius: 50%;
+        background-color: white;
+        
+
+    }
+    #logo h1{
+        color:red;
+        padding:0 .5rem;
+    }
+/* ================== Header container section ended ================*/
+
+
+/* ================== Header section ======================*/
+    .navigation-bar{
+        display: flex;
+        padding:0 2rem;
+        gap:3rem;
+    }
+/* ================== Header section ended ================ */
+
+
+
+.heroContainer{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   box-shadow: 0 0 3px lightgray;
+   gap:2rem;
+   width:90%;
+   margin:auto;
+   margin-top:23px;
+}
+.heroContainer .section{
+    flex-basis: 30%;
+    
+
+}
+.section h2{
+    
+   padding: 2rem 1rem;
+}
+.section p{
+    color:gray; 
+    padding:.5rem 1rem;
+    margin-top:-1.3rem;
+
+}
+img{
+    width:300px;
+    border-radius: 3rem;
+}
+
+.btn{
+    padding:0.3rem 2rem;
+    color:white;
+    background-color: rgb(49, 49, 206);
+    border-radius: 0.6rem;
+}
